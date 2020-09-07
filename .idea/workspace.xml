@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/BlogDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/CommentDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/EveryDayDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/blog_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/bootstrap-wysiwyg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-clj.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-dart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-erlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-go.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-llvm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-matlab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-mumps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-pascal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-r.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-rd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tcl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-xq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/run_prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/jquery.hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/promo-868x350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/republish.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/blog_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/guestbook.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/css/sitemap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/edit_blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/edit_every_day.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/font/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/guestbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/blog_detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/guestbook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/sitemap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/sitemap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/RespUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/TimeUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/BlogController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/CommentController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/EveryDayController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/TagsContraoller.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gBXIz7Hm2O6kTWIfsKMCo9kgvW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.28" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/page/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\my_blog\PersonalBlog\page\js" />
+      <recent name="Y:\my_blog\PersonalBlog\page" />
+      <recent name="Y:\my_blog\PersonalBlog\page\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\my_blog\PersonalBlog\page" />
+      <recent name="Y:\my_blog\PersonalBlog\page\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="axios.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/page/js/axios.js" working-dir="$PROJECT_DIR$/page/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/config.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.axios.js" />
+        <item itemvalue="Node.js.config.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="" />
+      <created>1597588884927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597588884927</updated>
+      <workItem from="1597588886872" duration="3337000" />
+      <workItem from="1597630722891" duration="5759000" />
+      <workItem from="1598428346285" duration="12757000" />
+      <workItem from="1598507244385" duration="279000" />
+      <workItem from="1598507601103" duration="1986000" />
+      <workItem from="1598511344377" duration="15443000" />
+      <workItem from="1598852979891" duration="29310000" />
+      <workItem from="1599113161525" duration="16479000" />
+      <workItem from="1599210146777" duration="14465000" />
+      <workItem from="1599407024311" duration="10020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599424874347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1599424874347" />
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598857102580">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1598857102580" />
+    <state width="488" height="466" key="DebuggerActiveHint" timestamp="1599425762093">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="488" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1599425762093" />
+    <state width="1515" height="279" key="GridCell.Tab.0.bottom" timestamp="1599426482299">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="279" key="GridCell.Tab.0.center" timestamp="1599426482299">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="279" key="GridCell.Tab.0.left" timestamp="1599426482299">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="279" key="GridCell.Tab.0.right" timestamp="1599426482299">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="279" key="GridCell.Tab.1.bottom" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.1.center" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.1.left" timestamp="1599426482299">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="279" key="GridCell.Tab.1.right" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.2.bottom" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.2.center" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.2.left" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.2.right" timestamp="1599426482300">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.3.bottom" timestamp="1599426482301">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599426482301" />
+    <state width="1515" height="279" key="GridCell.Tab.3.center" timestamp="1599426482301">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1599426482301" />
+    <state width="1515" height="279" key="GridCell.Tab.3.left" timestamp="1599426482301">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1599426482300" />
+    <state width="1515" height="279" key="GridCell.Tab.3.right" timestamp="1599426482301">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="279" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1599426482301" />
+    <state x="494" y="82" key="SettingsEditor" timestamp="1597589563269">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="494" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597589563269" />
+    <state x="426" y="197" width="672" height="677" key="run.anything.popup" timestamp="1599214411387">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="426" y="197" width="672" height="677" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1599214411387" />
+    <state x="815" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1599211659293">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="815" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1599211659293" />
+  </component>
+</project>

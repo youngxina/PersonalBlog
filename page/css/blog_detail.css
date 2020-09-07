@@ -1,0 +1,139 @@
+.blog {
+    background: white;
+    width: 96%;
+    border: 8px;
+    padding: 10px 15px;
+    box-shadow: 3px 4px 3px;
+    text-align: left;
+    min-height: 600px;
+}
+
+.blog_title{
+    font-size: 24px;
+    font-width: 600;
+}
+
+.blog_msg {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.blog_content {
+    padding: 0px 10px 20px 0px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.send_comment {
+    background: #f5f5f5;
+    width: 96%;
+    border-radius: 8px;
+    padding: 10px 15px;
+    box-shadow: 3px 4px 3px #888888;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.send_comment input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.send_comment input:hover{
+    border-color: #c0c4cc;
+}
+
+.send_comment input:focus{
+    border-color: #409eff ;
+}
+
+.send_comment textarea {
+    width: 90%;
+    height: 100px;
+    border: 1px solid #dcdfe6;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.send_comment textarea:hover{
+    border-color: #c0c4cc;
+}
+.send_comment textarea:focus{
+    border-color: #409eff;
+}
+
+.send_comment button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #409eff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #409eff;
+    color: #fff;
+}
+
+.send_comment button:hover {
+    background: #66b1ff;
+    border-color: #66b1ff;
+}
+
+.blog_comments {
+    width: 100%;
+    background: pink;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+.blog_comments_msg {
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+}
+
+.blog_comment {
+    width: 95%;
+    background: #d9edf7;
+    border: 1px dashed #7ca4c1;
+    padding: 10px 10px 20px 10px;
+    margin-top: 10px;
+    color: #31708f;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.blog_comment span {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.blog_comment div {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 10px;
+}
