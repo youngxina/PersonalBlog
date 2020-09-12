@@ -19,14 +19,7 @@
     <list default="true" id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/TagsDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/TagsContraoller.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/TagsContraoller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gBXIz7Hm2O6kTWIfsKMCo9kgvW" />
@@ -121,6 +120,9 @@
       <workItem from="1599448529720" duration="8156000" />
       <workItem from="1599463320880" duration="24000" />
       <workItem from="1599893479229" duration="3243000" />
+      <workItem from="1599901975337" duration="655000" />
+      <workItem from="1599908847839" duration="647000" />
+      <workItem from="1599909849489" duration="503000" />
     </task>
     <servers />
   </component>
@@ -164,22 +166,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="488" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1599425762093" />
-    <state width="1515" height="218" key="GridCell.Tab.0.bottom" timestamp="1599901545065">
+    <state x="147" y="69" key="DiffContextDialog" timestamp="1599902092502">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
-    <state width="1515" height="218" key="GridCell.Tab.0.center" timestamp="1599901545065">
+    <state x="147" y="69" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1599902092502" />
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom" timestamp="1599909494595">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
-    <state width="1515" height="218" key="GridCell.Tab.0.left" timestamp="1599901545065">
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599909494595" />
+    <state width="1515" height="218" key="GridCell.Tab.0.center" timestamp="1599909494595">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
-    <state width="1515" height="218" key="GridCell.Tab.0.right" timestamp="1599901545065">
+    <state width="1515" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599909494595" />
+    <state width="1515" height="218" key="GridCell.Tab.0.left" timestamp="1599909494595">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
+    <state width="1515" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599909494595" />
+    <state width="1515" height="218" key="GridCell.Tab.0.right" timestamp="1599909494595">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599909494595" />
     <state width="1515" height="279" key="GridCell.Tab.1.bottom" timestamp="1599426482300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -232,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="494" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597589563269" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599448789746">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599910347787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599448789746" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599910347787" />
     <state x="468" y="30" width="600" height="804" key="find.popup" timestamp="1599456114745">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
