@@ -45,9 +45,7 @@ var articleList = new Vue({
                 var searchUrlParams = location.search.indexOf("?") > -1 ? location.search.split("?")[1].split("&") : "";
                 var tag = "";
 
-
                 for (var i = 0; i < searchUrlParams.length; i++) {
-
                     if (searchUrlParams[i].split("=")[0] == "tag") {
                         try {
                             tag = searchUrlParams[i].split("=")[1];
@@ -62,7 +60,7 @@ var articleList = new Vue({
                         method: "get",
                         url: "/queryBlogByPage?page=" + (page - 1) + "&pageSize=" + pageSize
                     }).then(function (resp) {
-                        console.log(resp);
+                        // console.log(resp);
                         var result = resp.data;
                         var list = [];
                         for (var i = 0; i < result.length; i++) {
@@ -82,11 +80,12 @@ var articleList = new Vue({
                         console.log("请求错误" + error);
                     });
                 }else{
+                    console.log("1");
                     axios({
                         method: "get",
                         url: "/queryByTag?page=" + (page - 1) + "&pageSize=" + pageSize + "&tag=" +tag
                     }).then(function (resp) {
-                        console.log(resp);
+                        // console.log(resp);
                         var result = resp.data;
                         var list = [];
                         for (var i = 0; i < result.length; i++) {
@@ -105,6 +104,19 @@ var articleList = new Vue({
                     }).catch(function (error) {
                         console.log("请求错误" + error);
                     });
+                        console.log("2");
+                    axios({
+                        method: "get",
+                        url: "/queryByTagCount?tag=" +tag
+                    }).then(function (resp) {
+                        console.log(resp);
+                        console.log("____________tag=")
+                        articleList.count = resp.data[0].count;
+                        articleList.generatePageTool;
+                    }).catch(function (error) {
+                        console.log(error);
+                    });
+
                 }
 
                 axios({

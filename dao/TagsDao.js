@@ -32,6 +32,9 @@ function queryTag(tag, success) {
     connection.end();
 }
 
+
+
+
 function queryRandomTags(success){
     var querySql = "select * from tags";
     var params = [];
@@ -47,6 +50,7 @@ function queryRandomTags(success){
     });
     connection.end();
 }
+
 
 module.exports.insertTag = insertTag;
 module.exports.queryTag = queryTag;

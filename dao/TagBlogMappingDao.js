@@ -32,7 +32,22 @@ function queryByTag(tagId, page, pageSize, success) {
     connection.end();
 }
 
+function queryByTagCount(tagId, success) {
+    var querySql = "select count(1) as count from tag_blog_mapping where tag_id = ?";
+    var params = [tagId];
 
+    var connection = dbUtile.createConnection();
+    connection.connect();
+    connection.query(querySql, params, function (error, result) {
+        if (error == null) {
+            success(result);
+        } else {
+            console.log(error);
+        }
+    });
+    connection.end();
+}
 
 module.exports.insertTagBlogMapping = insertTagBlogMapping;
 module.exports.queryByTag = queryByTag;
+module.exports.queryByTagCount = queryByTagCount;

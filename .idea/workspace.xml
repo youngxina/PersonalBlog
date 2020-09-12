@@ -7,87 +7,26 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/BlogDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/CommentDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/EveryDayDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/blog_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/bootstrap-wysiwyg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-apollo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-clj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-dart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-erlang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-go.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-hs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lisp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-llvm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-lua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-matlab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-mumps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-pascal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-proto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-r.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-rd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-scala.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-sql.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tcl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-tex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-vhdl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-wiki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-xq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/lang-yaml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/google-code-prettify/run_prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/external/jquery.hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/promo-868x350.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/bootstrap-wysiwyg-master/republish.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/blog_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/guestbook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/css/sitemap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/edit_blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/edit_every_day.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/font/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/guestbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/blog_detail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/guestbook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/sitemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/sitemap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/RespUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/TimeUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/BlogController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/CommentController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/EveryDayController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/TagsContraoller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagBlogMappingDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/TagsDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/TagsDao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.conf" beforeDir="false" afterPath="$PROJECT_DIR$/server.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/TagsContraoller.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/TagsContraoller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.28" />
+    <property name="js.last.introduce.type" value="VAR" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/page/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -178,6 +118,9 @@
       <workItem from="1599113161525" duration="16479000" />
       <workItem from="1599210146777" duration="14465000" />
       <workItem from="1599407024311" duration="10020000" />
+      <workItem from="1599448529720" duration="8156000" />
+      <workItem from="1599463320880" duration="24000" />
+      <workItem from="1599893479229" duration="3243000" />
     </task>
     <servers />
   </component>
@@ -189,7 +132,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -209,22 +164,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="488" height="466" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1599425762093" />
-    <state width="1515" height="279" key="GridCell.Tab.0.bottom" timestamp="1599426482299">
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom" timestamp="1599901545065">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="279" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
-    <state width="1515" height="279" key="GridCell.Tab.0.center" timestamp="1599426482299">
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
+    <state width="1515" height="218" key="GridCell.Tab.0.center" timestamp="1599901545065">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="279" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
-    <state width="1515" height="279" key="GridCell.Tab.0.left" timestamp="1599426482299">
+    <state width="1515" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
+    <state width="1515" height="218" key="GridCell.Tab.0.left" timestamp="1599901545065">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="279" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
-    <state width="1515" height="279" key="GridCell.Tab.0.right" timestamp="1599426482299">
+    <state width="1515" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
+    <state width="1515" height="218" key="GridCell.Tab.0.right" timestamp="1599901545065">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1515" height="279" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599426482299" />
+    <state width="1515" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1599901545065" />
     <state width="1515" height="279" key="GridCell.Tab.1.bottom" timestamp="1599426482300">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -277,6 +232,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="494" y="82" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1597589563269" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1599448789746">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599448789746" />
+    <state x="468" y="30" width="600" height="804" key="find.popup" timestamp="1599456114745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="468" y="30" width="600" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1599456114745" />
     <state x="426" y="197" width="672" height="677" key="run.anything.popup" timestamp="1599214411387">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
