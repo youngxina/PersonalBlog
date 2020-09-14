@@ -16,18 +16,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="update">
+    <list default="true" id="e70acbdf-5f9c-497f-b1c7-d2ae5d443988" name="Default Changelist" comment="Fix the bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/BlogDao.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/BlogDao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/DBUtil.js" beforeDir="false" afterPath="$PROJECT_DIR$/dao/DBUtil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/blog_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/blog_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/css/blog_detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/page/css/blog_detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/guestbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/guestbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/js/blog_detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/blog_detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/js/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/page/js/sitemap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/BlogController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/BlogController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/CommentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/CommentController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/TagsContraoller.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/TagsContraoller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +131,7 @@
       <workItem from="1599901975337" duration="655000" />
       <workItem from="1599908847839" duration="647000" />
       <workItem from="1599909849489" duration="6011000" />
-      <workItem from="1600079819484" duration="1780000" />
+      <workItem from="1600079819484" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1599910430413</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599910430413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix the bug">
+      <created>1600081698237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600081698237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +179,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Fix the bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599424874347">
@@ -192,22 +199,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="147" y="69" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1599902092502" />
-    <state width="757" height="218" key="GridCell.Tab.0.bottom" timestamp="1600080662244">
+    <state width="757" height="218" key="GridCell.Tab.0.bottom" timestamp="1600081908084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600080662244" />
-    <state width="757" height="218" key="GridCell.Tab.0.center" timestamp="1600080662244">
+    <state width="757" height="218" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600081908084" />
+    <state width="757" height="218" key="GridCell.Tab.0.center" timestamp="1600081908084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600080662244" />
-    <state width="757" height="218" key="GridCell.Tab.0.left" timestamp="1600080662244">
+    <state width="757" height="218" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600081908084" />
+    <state width="757" height="218" key="GridCell.Tab.0.left" timestamp="1600081908083">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600080662244" />
-    <state width="757" height="218" key="GridCell.Tab.0.right" timestamp="1600080662244">
+    <state width="757" height="218" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600081908083" />
+    <state width="757" height="218" key="GridCell.Tab.0.right" timestamp="1600081908084">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="757" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600080662244" />
+    <state width="757" height="218" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600081908084" />
     <state width="757" height="279" key="GridCell.Tab.1.bottom" timestamp="1599925449826">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

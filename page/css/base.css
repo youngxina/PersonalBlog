@@ -216,11 +216,12 @@ body {
     cursor: pointer;
     text-align: center;
 }
-
 .footer > p {
+    padding: 15px 0;
     margin-top: 10px;
-    color: #a2a2a2;
-    
+    background-color: #333;
+    color: white;
+    font-size: 12px;
 }
 
 .page_tool{

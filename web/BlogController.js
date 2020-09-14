@@ -7,7 +7,6 @@ var url = require("url");
 var path = new Map();
 
 function queryHotBlog(request, response) {
-    // var params = url.parse(request.url, true).query;
     BlogDao.queryHotBlog(5,function (result) {
         response.writeHead(200);
         response.write(respUtil.writeResult("success", "查询成功", result));

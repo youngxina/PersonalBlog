@@ -11,7 +11,6 @@ var blogList = new Vue({
             method:"get",
             url: "/queryAllBlog"
         }).then(function(resp){
-            console.log(resp);
             for (i = 0; i < resp.data.length; i++) {
                 resp.data[i].link = "/blog_detail.html?bid=" + resp.data[i].id;
 

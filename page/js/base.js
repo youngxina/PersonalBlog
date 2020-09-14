@@ -28,13 +28,13 @@ var randomTags = new Vue({
             for (var i = 0; i < resp.data.length; i++) {
                 result.push({text:resp.data[i].tag, link:"/?tag=" + resp.data[i].tag});
             }
-            // console.log(result);
             randomTags.tags = result;
         }).catch(function (error) {
             console.log("请求错误"+error);
         });
     }
 });
+
 
 var newHot = new Vue({
     el:"#new_hot",
