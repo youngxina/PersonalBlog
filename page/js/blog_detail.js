@@ -19,7 +19,6 @@ var blogDetail = new Vue({
         var bid = -10;
 
         for (var i = 0; i < searchUrlParams.length; i++) {
-            console.log("blogDetail+++++++++++++++++");
             if (searchUrlParams[i].split("=")[0] == "bid") {
                 try {
                     bid = parseInt(searchUrlParams[i].split("=")[1]);
@@ -88,7 +87,7 @@ var sendComment = new Vue({
 
                 axios({
                     method: "get",
-                    url: "/addComment?bid=" + bid + "&parent=" + reply + "&userName=" + name + "&email=" + email + "&content=" + content+ "&parentName=" + replyName
+                    url: "/addComment?bid=" + bid + "&parent=" + reply + "&userName=" + name + "&email=" + email + "&content=" + content + "&parentName=" + replyName
                 }).then(function (resp) {
                     alert("评论成功!");
                     document.getElementById("comment_name").value = "";
@@ -96,9 +95,9 @@ var sendComment = new Vue({
                     document.getElementById("comment_content").value = "";
                     document.getElementById("comment_code").value = ""
                     this.changeCode();
-                }).catch(function (error) {
-                    console.log("请求失败!" + error);
-                })
+
+
+                });
             }
         },
         changeCode: function () {
@@ -135,11 +134,10 @@ var blogComments = new Vue({
                 document.getElementById("comment_reply_name").value = userName;
                 location.href = "#send_comment";
             }
-        }
+        },
     },
     created: function(){
         var bid = getBid();
-
         axios({
             method: "get",
             url: "/queryCommentsByBlogId?bid="+bid
@@ -154,6 +152,7 @@ var blogComments = new Vue({
         }).catch(function(error){
             console.log("queryCommentsByBlogId请求错误"+error);
         });
+
         axios({
             method: "get",
             url: "/queryCommentsCountByBlogId?bid="+bid
@@ -161,7 +160,7 @@ var blogComments = new Vue({
             blogComments.total = resp.data[0].count;
         }).catch(function(error){
 
-        })
+        });
     }
 });
 
