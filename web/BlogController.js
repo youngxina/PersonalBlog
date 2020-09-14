@@ -18,8 +18,7 @@ function queryHotBlog(request, response) {
 path.set("/queryHotBlog",queryHotBlog);
 
 function queryAllBlog(request, response) {
-    // var params = url.parse(request.url, true).query;
-    BlogDao.queryBlogById(function (result) {
+    BlogDao.queryAllBlog(function (result) {
         response.writeHead(200);
         response.write(respUtil.writeResult("success", "查询成功", result));
         response.end();
@@ -35,9 +34,7 @@ function queryBlogById(request, response) {
         response.write(respUtil.writeResult("success", "查询成功", result));
         response.end();
         BlogDao.addViews(parseInt(params.bid), function(result){
-            response.writeHead(200);
-            response.write(respUtil.writeResult("success", "查询成功", result));
-            response.end();
+
         })
     })
 }

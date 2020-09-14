@@ -33,11 +33,11 @@ path.set("/queryRandomCode",queryRandomCode);
 
 function queryCommentsByBlogId(request, response){
     var params = url.parse(request.url, true).query;
-    commentDao.queryCommentsByBlogId(parseInt(params.bid),function(resp){
+    commentDao.queryCommentsByBlogId(parseInt(params.bid), function (resp) {
         response.writeHead(200);
-        response.write(respUtil.writeResult("success","查询成功", resp));
+        response.write(respUtil.writeResult("success", "查询成功", resp));
         response.end();
-    })
+    });
 }
 path.set("/queryCommentsByBlogId",queryCommentsByBlogId);
 

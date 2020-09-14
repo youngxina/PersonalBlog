@@ -19,11 +19,10 @@ var blogDetail = new Vue({
         var bid = -10;
 
         for (var i = 0; i < searchUrlParams.length; i++) {
-            console.log(searchUrlParams[0].split("="));
+            console.log("blogDetail+++++++++++++++++");
             if (searchUrlParams[i].split("=")[0] == "bid") {
                 try {
                     bid = parseInt(searchUrlParams[i].split("=")[1]);
-
                 } catch (e) {
                     console.log(e);
                 }
@@ -140,6 +139,7 @@ var blogComments = new Vue({
     },
     created: function(){
         var bid = getBid();
+
         axios({
             method: "get",
             url: "/queryCommentsByBlogId?bid="+bid

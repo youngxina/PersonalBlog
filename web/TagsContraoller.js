@@ -10,8 +10,7 @@ function queryRandomTags (request, response){
         result.sort(function(){
            return Math.random() > 0.5 ? true : false;
         });
-
-
+        console.log("随机标签云");
         response.writeHead(200);
         response.write(respUtil.writeResult("success", "查询成功", result));
         response.end();

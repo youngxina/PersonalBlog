@@ -112,6 +112,22 @@ function queryHotBlog(size ,success) {
     connection.end();
 }
 
+function queryAllBlog(success) {
+    var querySql = "select * from blog";
+    var params = [];
+
+    var connection = dbUtile.createConnection();
+    connection.connect();
+    connection.query(querySql, params, function (error, result) {
+        if(error == null) {
+            success(result);
+        }else {
+            console.log(error);
+        }
+    });
+    connection.end();
+}
+
 
 module.exports.insertBlog = insertBlog;
 module.exports.queryBlogByPage = queryBlogByPage;
@@ -120,3 +136,4 @@ module.exports.queryBlogById = queryBlogById;
 module.exports.queryRandomTags = queryRandomTags;
 module.exports.addViews = addViews;
 module.exports.queryHotBlog = queryHotBlog;
+module.exports.queryAllBlog = queryAllBlog;

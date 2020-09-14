@@ -24,7 +24,6 @@ var randomTags = new Vue({
             method: "get",
             url: "/queryRandomTags"
         }).then(function (resp) {
-            // console.log(resp);
            var result = [];
             for (var i = 0; i < resp.data.length; i++) {
                 result.push({text:resp.data[i].tag, link:"/?tag=" + resp.data[i].tag});

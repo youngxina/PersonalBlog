@@ -30,6 +30,7 @@ app.get("/queryRandomTags", loader.get("/queryRandomTags"));
 
 app.get("/queryByTag",loader.get("/queryByTag"));
 app.get("/queryByTagCount",loader.get("/queryByTagCount"));
+app.get("/queryAllBlog",loader.get("/queryAllBlog"));
 
 app.listen(globalConfig.port,function(){
     console.log("服务器已经启动")
