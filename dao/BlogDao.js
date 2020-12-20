@@ -48,7 +48,7 @@ function queryBlogCount(success) {
     connection.end();
 }
 
-function queryBlogById(id,success) {
+function    queryBlogById(id,success) {
     var querySql = "select * from blog where id = ?";
     var params = [id];
 

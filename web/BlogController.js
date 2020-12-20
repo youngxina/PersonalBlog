@@ -110,4 +110,5 @@ function insertTagBlogMapping(tagId, blogId) {
     })
 }
 
+
 module.exports.path = path;
